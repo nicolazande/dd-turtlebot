@@ -1,9 +1,5 @@
 # ddTurtlebot
-Differential drive example and results.
 
-INSTRUCTIONS TO RUN THE PROJECT: (the full description of the project is in the Power Point)
-
-#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 SETUP:
 	Take the 'project' folder inside the zip file and put it inside the standard 'catkin_ws/src' folder
 	There is already the CMakeList.txt and package.xml
@@ -37,7 +33,7 @@ RVIZ:
 IMAGES:
 	In the folder project/img there are some plots of the results
 	
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 TERMINAL COMMANDS: (commands are between [])
 
 	1) put 'project' folder in 'catkin_ws/src'
