@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- sim time true uso mio clock -->
+  <param name="/use_sim_time" value="true"/>  
+  <!-- Run rviz -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find project)/config/project_config.rviz" />
+  <node pkg="project" name="robot_planner" type="robot_planner" output="screen"/>
+  <node pkg="project" name="left_wheel" type="left_wheel" output="screen"/>
+  <node pkg="project" name="right_wheel" type="right_wheel" output="screen"/>
+  <node pkg="project" name="robot_controller" type="robot_controller" output="screen"/>
+  <node pkg="project" name="robot_simulator" type="robot_simulator" output="screen"/>
+  
+</launch>
