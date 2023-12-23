@@ -2,6 +2,9 @@
 
 This repository contains the source code and files for the **dd-turtlebot** project.
 
+![rqt_graph](https://github.com/nicolazande/dd-turtlebot/assets/115359494/0cb1f4d7-4aa8-42c0-8dfe-cf8677c0bce1)
+
+
 ## Setup
 
 To set up the project, follow these steps:
